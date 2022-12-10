@@ -12,7 +12,7 @@ dotenv.config();
 
 conectarDB();
 
-const dominiosPermitios = [process.env.FRONTEND_URL, '127.0.0.1'];
+const dominiosPermitios = [process.env.FRONTEND_URL];
 
 const corsOptions = {
     origin: function(origin, callback) {
